@@ -1,0 +1,213 @@
+
+/* font-styles */
+.merriweather-normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+section{
+  width: 1320px;
+  margin:0 auto;
+  margin-bottom:120px;
+}
+
+/* new year banner styles */
+
+.hero-container{
+  background-image: linear-gradient(rgba(7,2,17,1), rgba(7,2,17,0)), url("resources/Banner\ Image.png") ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: none;
+  border-radius: 16px;
+}
+.hero-content{
+  color: #FFFFFF;
+  width: 632px;
+  height: 246px;
+  padding: 177px 244px;
+  margin: auto auto;
+  text-align: center;
+}
+.hero-text{
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.hero-title{
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  margin-top: 0;
+}
+
+/* offer section styles */
+
+.offer-container{
+  text-align: center;
+}
+
+.offer-title {
+  font-size: 88px;
+  font-weight: bold;
+  color: #FF0000;
+   margin-bottom: 48px; 
+}
+
+.offer-text{
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF0000;
+  margin: 0 0 16px 0;
+}
+
+.categories-title{
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  margin: 0 0 48px 0;
+}
+
+/* welcome section style */
+
+.welcome-container{
+  background-image: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url("/resources/Vectorrr.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: none;
+  border-radius: 16px;
+
+}
+.welcome-content{
+  color: #FFFFFF;
+}
+
+.welcome-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  width: 642px;
+  margin: 0 0 24px 0;
+
+}
+
+.welcome-description{
+  font-size: 18px;
+  line-height: 30px;
+  width: 697px;
+  margin: 0 0 48px 0;
+}
+.welcome-btn{
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border:none;
+  color: #FFFFFF;
+}
+
+.welcome-img{
+  width: 319.83px;
+  height: 464.66px;
+}
+
+
+
+/* addressCard Styles */
+
+.addressCard-container{
+  background: linear-gradient(to bottom, rgba(255,0,0,0.1),rgba(255,0,0,0));
+  max-height: 482px;
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+  padding: 100px 386px 110px 385px;
+
+}
+
+.address-text{
+  font-size: 32px;
+  font-weight: 700;
+  color: #070211;
+  margin-bottom: 0;
+}
+
+.address-text span{
+  color: #FF0000;
+}
+
+.address-btn{
+  margin-top: 48px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 16px;
+  /* margin-bottom: 0; */
+ }
+ 
+/* new Best offer section style */
+
+.newBestOffer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.newBestOffer-content1{
+  width: 393px;
+  height: 255px;
+}
+.content1-text{
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF0000;
+}
+.content1-title{
+  font-size: 48px;
+  font-weight: 900;
+  color: 070211;
+}
+.content-description{
+  font-size: 20;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.newBestOffer-content2{
+  width: 463px;
+  height: 463px;
+}
+.content2-img{
+  border: 15px solid #FF0000;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.newBestOffer-content3{
+  width: 276px;
+}
+
+.content3-title{
+  font-size: 48px;
+  font-weight:  bold;
+  color: #FF0000;
+}
+
+.content3-img{
+  width: 140px;
+  height: 140px;
+}
