@@ -310,6 +310,12 @@ section{
   border-radius: 16px;
 }
 
+.portfolio-card :hover{
+  border: 1px solid #FF0000;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
 .subscribe-container{
   background-color: rgba(255, 0, 0, 0.05);
   text-align: center;
