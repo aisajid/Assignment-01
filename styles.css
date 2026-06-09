@@ -84,10 +84,11 @@ section{
 /* welcome section style */
 
 .welcome-container{
-  background: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url("/resources/vector.png");
+  background: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url('resources/vector.png');
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
   gap: 91px;
   border: none;
   border-radius: 16px;
