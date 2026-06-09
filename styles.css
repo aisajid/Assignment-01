@@ -84,7 +84,7 @@ section{
 /* welcome section style */
 
 .welcome-container{
-  background-image: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url("/resources/Vectorrr.png");
+  background-image: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url("/resources/vectore.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -412,7 +412,7 @@ input[type ="submit"]{
 }
  
 .first-content-list{
-  width: 251px;
+  /* width: 251px; */
   height: 80px;
 }
 
@@ -422,12 +422,29 @@ input[type ="submit"]{
   line-height: 40px; 
   list-style: none;
   padding: 0;
+  color: #FFFFFF;
+  text-decoration: none;
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 18px;
+
 }
 
 .first-content-list a{
   color: #FFFFFF;
   text-decoration: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
 }
+
+/* .first-content-list li a img {
+  width: 24px;
+  height: 24px;
+
+} */
 
 .footer-hr{
   width: 1320px;
