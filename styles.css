@@ -84,13 +84,15 @@ section{
 /* welcome section style */
 
 .welcome-container{
-  background-image: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url("/resources/vectore.png");
+  background: linear-gradient(to right, rgba(7,2,17,1), rgba(7,2,17,0)), url("/resources/vector.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  gap: 91px;
   border: none;
   border-radius: 16px;
+  padding-top: 68px;
+  padding-bottom: 68px;
 
 }
 .welcome-content{
